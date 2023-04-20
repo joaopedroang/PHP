@@ -1,53 +1,22 @@
-<?php
-
-$variavel = 10;
-echo $variavel;
-
-echo "<br><br>";
-
-if ($variavel < 20) {
-    echo "É menor que 20";
-} else {
-    echo "É maior que 20";
-}
-
-echo "<br><br>";
-
-echo "Usando For<br>";
-for ($i=0; $i<=10; $i++) {
-    echo $i. " ";
-}
-
-echo "<br><br>";
-
-echo "Usando While<br>";
-$j = 0;
-while ($j<=10) {
-    echo $j. " ";
-    $j++;
-}
-
-echo "<br><br>";
-
-echo "Usando do... While<br>";
-$k = 0;
-do {
-    echo "Olá ";
-    $k++;
-} while($k == 10);
-
-echo "<br><br>";
-
-echo "Usando Switch case<br>";
-$switch = 1;
-switch ($switch) {
-    case 1: echo "Número 1";
-        break;
-    default: echo "Não é o valor informado";
-        break;
-}
-
-echo "<br><br>";
-
-
-?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <form id="enviar" action="media.php" method="POST">
+            nota1: <input type="number" name="nota1">
+            <br>
+            nota2: <input type="number" name="nota2">
+            <br>
+            nota3: <input type="number" name="nota3">
+            <br>
+            <input type="submit" name="enviar" value="enviar">
+        </form>
+    </center>
+</body>
+</html>
