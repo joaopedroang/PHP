@@ -61,9 +61,9 @@ $idade=$valor/365;
     echo "<br>";
 
 if ($idade >= 18) {
-    echo "É maior de idade!";
+    echo "Maior de idade!";
 } else {
-    echo "Não é maior de idade!";
+    echo "Menor de idade!";
 }
 
 echo "<br><br>";
